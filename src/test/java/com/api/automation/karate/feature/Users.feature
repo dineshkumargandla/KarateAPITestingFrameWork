@@ -23,7 +23,7 @@ Feature: Testing the Users and Authentication
 
       #And match response.user.username contains  '<Response>' || response == <Response>
     Examples:
-      | ScenarioDescription                                      | Email               | Password               | Response                  |
+      | ScenarioDescription                                      | Email               | Password               | Response                |
       | Testing with Valid Email and password                    | #(getExistingEmail) | #(getExistingPassword) |  #(getExistingUserName) |
 
 
